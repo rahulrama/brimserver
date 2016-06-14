@@ -1,6 +1,6 @@
 describe Search, type: :model do
 
  it { should belong_to :user }
- # it { is_expected.to belong_to :search }
+ it { should have_and_belong_to_many :tags }
 
 end
