@@ -1,4 +1,4 @@
-Rails:  [![Coverage Status](https://coveralls.io/repos/github/rahulrama/brimserver/badge.svg?branch=master)](https://coveralls.io/github/rahulrama/brimserver?branch=master)  [![Build Status](https://travis-ci.org/rahulrama/brimserver.svg?branch=master)](https://travis-ci.org/rahulrama/brimserver)   |   Angular:  [![Coverage Status](https://coveralls.io/repos/github/bpstein/brim/badge.svg?branch=master)](https://coveralls.io/github/bpstein/brim?branch=master)  [![Build Status](https://travis-ci.org/bpstein/brim.svg?branch=master)](https://travis-ci.org/bpstein/brim)
+[![Coverage Status](https://coveralls.io/repos/github/rahulrama/brimserver/badge.svg?branch=master)](https://coveralls.io/github/rahulrama/brimserver?branch=master)   Rails:  [![Build Status](https://travis-ci.org/rahulrama/brimserver.svg?branch=master)](https://travis-ci.org/rahulrama/brimserver)   |   Angular:  [![Build Status](https://travis-ci.org/bpstein/brim.svg?branch=master)](https://travis-ci.org/bpstein/brim)
 
 
 This is one of the two repos for the Final project carried out by students at Makers Academy.
@@ -7,7 +7,7 @@ This file is WIP and will be updated continually during the course of the projec
 AUTHORS:
 -------
 
-Team BRIM: Ben Stein, Ivan Bavak, Max Provin, Rahul Ramakrishna
+Team BRIM: Ben Stein, Ivan Bakalov, Max Provin, Rahul Ramakrishna
 
 INTRODUCTION:
 ------------
