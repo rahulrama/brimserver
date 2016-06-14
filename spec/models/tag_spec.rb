@@ -1,6 +1,5 @@
 describe Tag, type: :model do
 
-  it { is_expected.to belong_to :preference }
-  # it { is_expected.to belong_to :search }
+  it { should have_and_belong_to_many :searches }
 
 end

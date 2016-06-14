@@ -1,4 +1,6 @@
 class Tag < ApplicationRecord
-  belongs_to :preference
-  # belongs_to :search
+
+  has_and_belongs_to_many :searches
+
 end
+
