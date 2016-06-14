@@ -24,7 +24,6 @@ gem 'omniauth'
 gem 'omniauth-instagram'
 gem 'figaro'
 
-
 group :test do
   gem 'shoulda'
   gem 'rspec-collection_matchers'
