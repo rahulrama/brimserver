@@ -477,6 +477,25 @@
         null,
         null
       ],
+      "/Users/Luiz/Max/Projects/final-project/brimserver/spec/factories/search.rb": [
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/Luiz/Max/Projects/final-project/brimserver/spec/factories/tag.rb": [
+
+      ],
+      "/Users/Luiz/Max/Projects/final-project/brimserver/spec/factories/user.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/Luiz/Max/Projects/final-project/brimserver/app/channels/application_cable/connection.rb": [
         null,
         1,
@@ -546,6 +565,6 @@
         null
       ]
     },
-    "timestamp": 1465911951
+    "timestamp": 1465912916
   }
 }
