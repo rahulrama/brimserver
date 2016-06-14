@@ -1,7 +1,7 @@
 Rails:  [![Coverage Status](https://coveralls.io/repos/github/rahulrama/brimserver/badge.svg?branch=master)](https://coveralls.io/github/rahulrama/brimserver?branch=master)  [![Build Status](https://travis-ci.org/rahulrama/brimserver.svg?branch=master)](https://travis-ci.org/rahulrama/brimserver)   |   Angular:  [![Coverage Status](https://coveralls.io/repos/github/bpstein/brim/badge.svg?branch=master)](https://coveralls.io/github/bpstein/brim?branch=master)  [![Build Status](https://travis-ci.org/bpstein/brim.svg?branch=master)](https://travis-ci.org/bpstein/brim)
 
 
-This is one of the two repos for Final project carried out by students at Makers Academy.
+This is one of the two repos for the Final project carried out by students at Makers Academy.
 This file is WIP and will be updated continually during the course of the project.
 
 AUTHORS:
@@ -85,7 +85,7 @@ TEST
 ----
 
 Server side: Type rspec into the commandline and this will run the tests. Below is an example of one of these tests:
-Client side: Type npm run start for the unit tests and npm run protractor for the feature tests.
+Client side: Type npm run test for the unit tests and npm run protractor for the feature tests.
 
 LICENCE
 -------
