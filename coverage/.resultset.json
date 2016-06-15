@@ -29,6 +29,8 @@
         null,
         1,
         1,
+        1,
+        1,
         null,
         null,
         null,
@@ -144,7 +146,7 @@
         null,
         null,
         1,
-        null,
+        1,
         1,
         null,
         null,
@@ -180,7 +182,7 @@
         null,
         null,
         null,
-        null,
+        1,
         null,
         null,
         null,
@@ -469,7 +471,7 @@
         null,
         null,
         1,
-        1,
+        2,
         null,
         null,
         null,
@@ -507,6 +509,17 @@
         1,
         1,
         null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "/Users/benstein/Documents/Git/makers_academy/brimserver/app/models/user.rb": [
@@ -518,11 +531,56 @@
         null,
         1,
         null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
         null
       ],
       "/Users/benstein/Documents/Git/makers_academy/brimserver/app/models/application_record.rb": [
         1,
         1,
+        null
+      ],
+      "/Users/benstein/Documents/Git/makers_academy/brimserver/spec/controllers/api/v1/searches_controller_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/benstein/Documents/Git/makers_academy/brimserver/app/controllers/api/v1/searches_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/benstein/Documents/Git/makers_academy/brimserver/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/benstein/Documents/Git/makers_academy/brimserver/spec/controllers/api/v1/tags_controller_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/benstein/Documents/Git/makers_academy/brimserver/app/controllers/api/v1/tags_controller.rb": [
+        1,
+        null,
         null
       ],
       "/Users/benstein/Documents/Git/makers_academy/brimserver/spec/models/search_spec.rb": [
@@ -565,6 +623,6 @@
         null
       ]
     },
-    "timestamp": 1465914051
+    "timestamp": 1465986277
   }
 }
