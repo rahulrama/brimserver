@@ -496,7 +496,7 @@
       "/Users/Luiz/Max/Projects/final-project/brimserver/spec/factories/user.rb": [
         1,
         1,
-        1,
+        2,
         1,
         1,
         null,
@@ -537,7 +537,7 @@
         null,
         null,
         1,
-        0,
+        1,
         null,
         null,
         1,
@@ -565,6 +565,11 @@
       ],
       "/Users/Luiz/Max/Projects/final-project/brimserver/app/controllers/api/v1/searches_controller.rb": [
         1,
+        null,
+        1,
+        0,
+        null,
+        null,
         null
       ],
       "/Users/Luiz/Max/Projects/final-project/brimserver/app/controllers/application_controller.rb": [
@@ -592,6 +597,17 @@
         null,
         2,
         2,
+        null,
+        1,
+        2,
+        2,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
         null,
         null
       ],
@@ -627,20 +643,28 @@
         null
       ],
       "/Users/Luiz/Max/Projects/final-project/brimserver/spec/requests/api/v1/searches_spec.rb": [
-        1,
-        1,
-        null,
-        1,
-        0,
-        0,
-        null,
-        0,
         null,
         null,
-        0,
         null,
         null,
-        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -648,6 +672,6 @@
         null
       ]
     },
-    "timestamp": 1465990236
+    "timestamp": 1465996619
   }
 }
