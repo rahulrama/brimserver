@@ -25,6 +25,7 @@ gem 'omniauth-instagram'
 gem 'figaro'
 
 group :test do
+  gem 'webmock'
   gem 'shoulda'
   gem 'rspec-collection_matchers'
 end
