@@ -14,6 +14,7 @@
 # users commonly want.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
+require 'webmock/rspec'
 require 'coveralls'
 require 'webmock/rspec'
 require_relative './support/request_helpers'
@@ -21,6 +22,7 @@ require_relative './support/request_helpers'
 WebMock.disable_net_connect!(allow_localhost: true)
 
 Coveralls.wear!
+WebMock.disable_net_connect!(allow_localhost: true)
 
 RSpec.configure do |config|
 
