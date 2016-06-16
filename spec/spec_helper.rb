@@ -16,10 +16,24 @@
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 require 'webmock/rspec'
 require 'coveralls'
+require 'webmock/rspec'
+require_relative './support/request_helpers'
+
+WebMock.disable_net_connect!(allow_localhost: true)
+
 Coveralls.wear!
 WebMock.disable_net_connect!(allow_localhost: true)
 
 RSpec.configure do |config|
+
+  # config.before(:each) do
+  #   stub_request(:get, /localhost:3000/).
+  #     with(headers: {'Accept'=>'*/*', 'User-Agent'=>'Ruby'}).
+  #     to_return(status: 200, body: "{ "tag": "cat" }", headers: {})
+  # end
+
+  config.include Requests::JsonHelpers, type: :request
+
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
   # assertions if you prefer.

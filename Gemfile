@@ -28,6 +28,7 @@ group :test do
   gem 'webmock'
   gem 'shoulda'
   gem 'rspec-collection_matchers'
+  gem 'webmock'
 end
 
 group :development, :test do
