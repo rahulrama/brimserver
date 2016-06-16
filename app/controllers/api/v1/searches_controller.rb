@@ -10,7 +10,7 @@ class Api::V1::SearchesController < ApplicationController
     if search.save
       render json: search, status: :ok
     else
-      render json: {search.errors, status: :unprocessable_entity}
+      render json: {status: :unprocessable_entity}
     end
   end
 
