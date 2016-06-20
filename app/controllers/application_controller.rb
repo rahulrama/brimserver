@@ -1,4 +1,5 @@
-class ApplicationController < ActionController::API
+class ApplicationController < ActionController::Base
+  protect_from_forgery with: :null_session
   def self.helper_method(*args)
   end
   def self.hide_action(*args)
