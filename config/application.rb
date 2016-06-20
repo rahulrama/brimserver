@@ -18,6 +18,12 @@ Bundler.require(*Rails.groups)
 
 module BrimServer
   class Application < Rails::Application
+    config.middleware.insert_before 0, Rack::Cors do
+      allow do
+        origins '*'
+        resource '*', :headers => :any, :methods => [:get, :post, :options, :delete, :put, :patch], credentials: true
+      end
+    end
     config.middleware.insert_after(ActionDispatch::Callbacks, ActionDispatch::Cookies)
     config.middleware.insert_after(ActionDispatch::Cookies, ActionDispatch::Session::CookieStore)
     # Settings in config/environments/* take precedence over those specified here.
