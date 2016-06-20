@@ -12,14 +12,15 @@ gem 'puma', '~> 3.0'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
-gem 'rack-cors'
+gem 'rack-cors', :require => 'rack/cors'
 gem 'devise'
+gem 'devise_token_auth', github:"lynndylanhurley/devise_token_auth", branch: "master"
 gem 'omniauth'
 gem 'omniauth-instagram'
 gem 'figaro'
@@ -28,7 +29,6 @@ group :test do
   gem 'webmock'
   gem 'shoulda'
   gem 'rspec-collection_matchers'
-  gem 'webmock'
 end
 
 group :development, :test do

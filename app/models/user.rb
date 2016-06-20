@@ -5,7 +5,8 @@ class User < ApplicationRecord
   has_many :searches
 
   devise :database_authenticatable, :registerable,
-         :recoverable, :rememberable, :trackable, :validatable, :omniauthable, :omniauth_providers => [:instagram]
+         :recoverable, :rememberable, :trackable, :validatable, :omniauthable
+  include DeviseTokenAuth::Concerns::User
 
   def email_required? 
     false
