@@ -24,7 +24,10 @@ module BrimServer
     #     resource '*', :headers => :any, :methods => [:get, :post, :options, :delete, :put, :patch], credentials: true
     #   end
     # end
-
+    config.action_dispatch.default_headers = {
+        'Access-Control-Allow-Origin' => 'http://localhost:8000',
+        'Access-Control-Request-Method' => %w{GET POST OPTIONS}.join(",")
+      }
 
   config.middleware.insert_before 0, Rack::Cors do
      allow do

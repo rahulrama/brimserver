@@ -14,20 +14,20 @@ class Api::V1::SearchesController < ApplicationController
     end
   end
 
-#   def create
-#   @user = User.new(params[:user])
+  def create
+  @user = User.new(params[:user])
 
-#   respond_to do |format|
-#     if @user.save
-#       flash[:notice] = 'User was successfully created.'
-#       format.html { redirect_to(@user) }
-#       format.xml { render xml: @user, status: :created, location: @user }
-#     else
-#       format.html { render action: "new" }
-#       format.xml { render xml: @user.errors, status: :unprocessable_entity }
-#     end
-#   end
-# end
+  respond_to do |format|
+    if @user.save
+      flash[:notice] = 'User was successfully created.'
+      format.html { redirect_to(@user) }
+      format.xml { render xml: @user, status: :created, location: @user }
+    else
+      format.html { render action: "new" }
+      format.xml { render xml: @user.errors, status: :unprocessable_entity }
+    end
+  end
+end
 
   private
 
